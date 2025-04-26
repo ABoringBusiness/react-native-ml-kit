@@ -1,0 +1,40 @@
+{
+  "name": "@react-native-ml-kit/smart-replies",
+  "title": "React Native MLKit Smart Replies",
+  "version": "1.0.0",
+  "description": "React Native On-Device Smart Replies w/ Google ML Kit",
+  "main": "index.ts",
+  "files": [
+    "README.md",
+    "android",
+    "index.ts",
+    "ios",
+    "RNMLKitSmartReplies.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABoringBusiness/react-native-ml-kit.git",
+    "baseUrl": "https://github.com/ABoringBusiness/react-native-ml-kit"
+  },
+  "keywords": [
+    "react-native",
+    "smart-replies",
+    "ml-kit"
+  ],
+  "author": {
+    "name": "ABoringBusiness"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.72.3"
+  }
+}
